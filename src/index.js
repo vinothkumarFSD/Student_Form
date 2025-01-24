@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {batchName,alertSomething as customAlert,default as sample} from './functions';
+
+import promptUsr,{questionUser} from './utils';
+import App from './App';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log(batchName);
+customAlert();
+promptUsr();
+questionUser('Are you sure');
+sample();
 root.render(
   <React.StrictMode>
+    <div>B4445WETAMIL</div>
     <App />
   </React.StrictMode>
 );
