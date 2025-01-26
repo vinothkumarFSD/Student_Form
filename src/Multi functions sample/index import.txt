@@ -1,0 +1,12 @@
+// import {batchName,alertSomething as customAlert,default as sample} from './functions';
+
+// import promptUsr,{questionUser} from './utils';
+// import App from './App';
+
+// console.log(batchName);
+// customAlert();
+// promptUsr();
+// questionUser('Are you sure');
+// sample();
+// CardLink();
+// console.log(CardLink());

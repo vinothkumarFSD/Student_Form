@@ -2,21 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
-import {batchName,alertSomething as customAlert,default as sample} from './functions';
-
-import promptUsr,{questionUser} from './utils';
-import App from './App';
+import StudentForm from './Components/StudentForm/StudentForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-console.log(batchName);
-customAlert();
-promptUsr();
-questionUser('Are you sure');
-sample();
+
 root.render(
   <React.StrictMode>
-    <div>B4445WETAMIL</div>
-    <App />
+    {/* <App /> */}
+    {/* <Counter /> */}
+    <StudentForm />
   </React.StrictMode>
 );
 
