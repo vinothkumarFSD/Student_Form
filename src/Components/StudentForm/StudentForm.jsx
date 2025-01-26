@@ -40,7 +40,7 @@ const StudentForm = () => {
                     border:'1px solid',
                     margin:16,
                     textAlign:'center',
-                    fontSize:'16px'
+                    fontSize:'20px'
                 }}>
                     <img src={imageUrl} alt={name} className={styles.image} /><br />
                     Name:{name}<br/>
